@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="MyGame.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\Model\SeaGrid.cs">
+    <Files>
+      <File FileName="src\Model\Player.cs" Line="5" Column="15" />
+      <File FileName="src\GameMain.cs" Line="19" Column="17" />
+      <File FileName="src\GameController.cs" Line="18" Column="30" />
+      <File FileName="src\Model\SeaGrid.cs" Line="28" Column="36" />
+      <File FileName="src\Model\TileView.cs" Line="37" Column="1" />
+      <File FileName="..\..\battleships\src\Model\TileView.vb" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
