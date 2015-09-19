@@ -12,6 +12,8 @@ using System.Diagnostics;
 /// grid. This can be used in conjuncture with the SeaGridAdapter to 
 /// mask the position of the ships.
 /// </remarks>
+
+
 public class SeaGrid : ISeaGrid
 {
 
@@ -25,7 +27,7 @@ public class SeaGrid : ISeaGrid
 	/// <summary>
 	/// The sea grid has changed and should be redrawn.
 	/// </summary>
-	public event EventHandler ISeaGrid.Changed;
+	public event EventHandler Changed;
 
 	/// <summary>
 	/// The width of the sea grid.
@@ -58,7 +60,7 @@ public class SeaGrid : ISeaGrid
 	/// <param name="x">x coordinate of the tile</param>
 	/// <param name="y">y coordiante of the tile</param>
 	/// <returns></returns>
-	public TileView Item {
+	public TileView this[int x, int y]{
 		get { return _GameTiles[x, y].View; }
 	}
 

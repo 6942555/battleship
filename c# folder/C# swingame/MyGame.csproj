@@ -66,6 +66,7 @@
     </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\animations\startup.txt">
@@ -159,7 +160,6 @@
     <Compile Include="src\EndingGameController.cs" />
     <Compile Include="src\GameController.cs" />
     <Compile Include="src\GameLogic.cs" />
-    <Compile Include="src\GameMain.cs" />
     <Compile Include="src\GameResources.cs" />
     <Compile Include="src\GameState.cs" />
     <Compile Include="src\HighScoreController.cs" />

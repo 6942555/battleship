@@ -7,6 +7,8 @@ using System.Diagnostics;
 /// <summary>
 /// The values that are visable for a given tile.
 /// </summary>
+
+
 public enum TileView
 {
 	/// <summary>

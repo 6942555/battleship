@@ -11,6 +11,7 @@ using SwinGameSDK;
 /// managing user input, and displaying the current state of the
 /// game.
 /// </summary>
+
 public static class GameController
 {
 
@@ -50,7 +51,7 @@ public static class GameController
 		get { return _ai; }
 	}
 
-	public GameController()
+	static GameController()
 	{
 		//bottom state will be quitting. If player exits main menu then the game is over
 		_state.Push(GameState.Quitting);

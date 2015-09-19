@@ -8,6 +8,8 @@ using System.Diagnostics;
 /// The ISeaGrid defines the read only interface of a Grid. This
 /// allows each player to see and attack their opponents grid.
 /// </summary>
+
+
 public interface ISeaGrid
 {
 
@@ -28,7 +30,7 @@ public interface ISeaGrid
 	/// <value>what the player can see at that location</value>
 	/// <returns>what the player can see at that location</returns>
 
-	TileView Item { get; }
+	TileView this[int x, int y] { get; }
 	/// <summary>
 	/// Mark the indicated tile as shot.
 	/// </summary>

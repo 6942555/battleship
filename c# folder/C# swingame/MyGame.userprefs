@@ -1,17 +1,27 @@
 ﻿<Properties StartupItem="MyGame.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\Model\SeaGrid.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\DiscoveryController.cs">
     <Files>
-      <File FileName="src\Model\Player.cs" Line="5" Column="15" />
-      <File FileName="src\GameMain.cs" Line="19" Column="17" />
-      <File FileName="src\GameController.cs" Line="18" Column="30" />
-      <File FileName="src\Model\SeaGrid.cs" Line="28" Column="36" />
-      <File FileName="src\Model\TileView.cs" Line="37" Column="1" />
-      <File FileName="..\..\battleships\src\Model\TileView.vb" Line="1" Column="1" />
+      <File FileName="src\Model\Player.cs" Line="11" Column="1" />
+      <File FileName="src\GameController.cs" Line="20" Column="2" />
+      <File FileName="src\Model\TileView.cs" Line="11" Column="1" />
+      <File FileName="src\Model\SeaGrid.cs" Line="16" Column="1" />
+      <File FileName="src\Model\ISeaGrid.cs" Line="13" Column="1" />
+      <File FileName="src\Model\SeaGridAdapter.cs" Line="12" Column="1" />
+      <File FileName="src\HighScoreController.cs" Line="130" Column="60" />
+      <File FileName="src\UtilityFunctions.cs" Line="154" Column="25" />
+      <File FileName="src\Model\AIPlayer.cs" Line="102" Column="54" />
+      <File FileName="src\GameResources.cs" Line="260" Column="3" />
+      <File FileName="src\DiscoveryController.cs" Line="24" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="E:\New folder\battleship\c# folder\C# swingame\src\HighScoreController.cs" line="175" column="10" />
+      <RunToCursorBreakpoint file="E:\New folder\battleship\c# folder\C# swingame\src\UtilityFunctions.cs" line="154" column="25" />
+      <RunToCursorBreakpoint file="E:\New folder\battleship\c# folder\C# swingame\src\HighScoreController.cs" line="130" column="60" />
+      <RunToCursorBreakpoint file="E:\New folder\battleship\c# folder\C# swingame\src\DiscoveryController.cs" line="25" column="11" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
