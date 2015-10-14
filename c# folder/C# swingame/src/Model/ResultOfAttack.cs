@@ -2,8 +2,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
+
 /// <summary>
 /// The result of an attack.
 /// </summary>
@@ -34,3 +34,4 @@ public enum ResultOfAttack
 	/// </summary>
 	GameOver
 }
+

@@ -2,25 +2,37 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="src\DiscoveryController.cs">
     <Files>
-      <File FileName="src\Model\Player.cs" Line="11" Column="1" />
-      <File FileName="src\GameController.cs" Line="20" Column="2" />
-      <File FileName="src\Model\TileView.cs" Line="11" Column="1" />
-      <File FileName="src\Model\SeaGrid.cs" Line="16" Column="1" />
-      <File FileName="src\Model\ISeaGrid.cs" Line="13" Column="1" />
-      <File FileName="src\Model\SeaGridAdapter.cs" Line="12" Column="1" />
-      <File FileName="src\HighScoreController.cs" Line="130" Column="60" />
-      <File FileName="src\UtilityFunctions.cs" Line="154" Column="25" />
-      <File FileName="src\Model\AIPlayer.cs" Line="102" Column="54" />
-      <File FileName="src\GameResources.cs" Line="260" Column="3" />
-      <File FileName="src\DiscoveryController.cs" Line="24" Column="33" />
+      <File FileName="src\Model\AIHardPlayer.cs" Line="355" Column="1" />
+      <File FileName="src\Model\AIMediumPlayer.cs" Line="1" Column="1" />
+      <File FileName="src\Model\AIOption.cs" Line="1" Column="1" />
+      <File FileName="src\Model\AIPlayer.cs" Line="1" Column="1" />
+      <File FileName="src\Model\AttackResult.cs" Line="1" Column="1" />
+      <File FileName="src\Model\BattleShipsGame.cs" Line="1" Column="1" />
+      <File FileName="src\Model\DeploymentController.cs" Line="1" Column="1" />
+      <File FileName="src\Model\Direction.cs" Line="1" Column="1" />
+      <File FileName="src\Model\ISeaGrid.cs" Line="1" Column="1" />
+      <File FileName="src\Model\Player.cs" Line="1" Column="1" />
+      <File FileName="src\Model\ResultOfAttack.cs" Line="1" Column="1" />
+      <File FileName="src\Model\SeaGrid.cs" Line="1" Column="1" />
+      <File FileName="src\Model\SeaGridAdapter.cs" Line="1" Column="1" />
+      <File FileName="src\Model\Ship.cs" Line="1" Column="1" />
+      <File FileName="src\Model\ShipName.cs" Line="1" Column="1" />
+      <File FileName="src\Model\Tile.cs" Line="131" Column="1" />
+      <File FileName="src\Model\TileView.cs" Line="39" Column="1" />
+      <File FileName="src\DiscoveryController.cs" Line="18" Column="33" />
+      <File FileName="src\EndingGameController.cs" Line="4" Column="30" />
+      <File FileName="src\GameController.cs" Line="8" Column="31" />
+      <File FileName="src\GameLogic.cs" Line="33" Column="71" />
+      <File FileName="src\GameResources.cs" Line="6" Column="19" />
+      <File FileName="src\GameState.cs" Line="55" Column="1" />
+      <File FileName="src\HighScoreController.cs" Line="195" Column="5" />
+      <File FileName="src\MenuController.cs" Line="300" Column="5" />
+      <File FileName="src\UtilityFunctions.cs" Line="321" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <RunToCursorBreakpoint file="E:\New folder\battleship\c# folder\C# swingame\src\HighScoreController.cs" line="175" column="10" />
-      <RunToCursorBreakpoint file="E:\New folder\battleship\c# folder\C# swingame\src\UtilityFunctions.cs" line="154" column="25" />
-      <RunToCursorBreakpoint file="E:\New folder\battleship\c# folder\C# swingame\src\HighScoreController.cs" line="130" column="60" />
-      <RunToCursorBreakpoint file="E:\New folder\battleship\c# folder\C# swingame\src\DiscoveryController.cs" line="25" column="11" />
+      <RunToCursorBreakpoint file="E:\New folder\battleship\c# folder\C# swingame\src\DiscoveryController.cs" line="9" column="28" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

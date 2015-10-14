@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+
 /// <summary>
 /// The different AI levels.
 /// </summary>
@@ -23,3 +24,4 @@ public enum AIOption
 	/// </summary>
 	Hard
 }
+
