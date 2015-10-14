@@ -4,19 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
-<<<<<<< HEAD
-=======
 
-using static GameController;
-using static UtilityFunctions;
-using static GameResources;
-using static DeploymentController;
-using static DiscoveryController;
-using static EndingGameController;
-using static MenuController;
-using static HighScoreController;
-
->>>>>>> origin/using_static
 static class GameLogic
 {
 	public static void Main()

@@ -6,14 +6,6 @@ using System.Diagnostics;
 using System.IO;
 using SwinGameSDK;
 
-using static GameController;
-using static UtilityFunctions;
-using static GameResources;
-using static DeploymentController;
-using static DiscoveryController;
-using static EndingGameController;
-using static MenuController;
-
 /// <summary>
 /// Controls displaying and collecting high score data.
 /// </summary>
