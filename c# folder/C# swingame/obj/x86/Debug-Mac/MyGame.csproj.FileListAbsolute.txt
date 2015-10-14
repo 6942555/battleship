@@ -1,2 +1,3 @@
 C:\Users\6942555\Documents\battleship\c# folder\C# swingame\obj\x86\Debug-Mac\MyGame.csprojResolveAssemblyReference.cache
 E:\New folder\battleship\c# folder\C# swingame\obj\x86\Debug-Mac\MyGame.csprojResolveAssemblyReference.cache
+E:\Uni\Dev Proj 1\battleships\c# folder\C# swingame\obj\x86\Debug-Mac\MyGame.csprojResolveAssemblyReference.cache
