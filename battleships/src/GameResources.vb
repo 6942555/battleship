@@ -40,7 +40,7 @@ For i  = 1 To 5
         NewSound("Error", "error.wav")
         NewSound("Hit", "hit.wav")
         NewSound("Sink", "sink.wav")
-        NewSound("Siren", "siren.wav")
+        NewSound("Siren", "air_raid_siren.wav")
         NewSound("Miss", "watershot.wav")
         NewSound("Winner", "winner.wav")
         NewSound("Lose", "lose.wav")
