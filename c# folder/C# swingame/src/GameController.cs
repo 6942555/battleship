@@ -171,9 +171,9 @@ public static class GameController
 				break;
 			case ResultOfAttack.GameOver:
 				PlayHitSequence(result.Row, result.Column, isHuman);
-			Audio.PlaySoundEffect(GameResources.GameSound("Sink"));
+			Audio.PlaySoundEffect(GameResources.GameSound("Siren"));
 
-			while (Audio.SoundEffectPlaying(GameResources.GameSound("Sink"))) {
+			while (Audio.SoundEffectPlaying(GameResources.GameSound("Siren"))) {
 					SwinGame.Delay(10);
 					SwinGame.RefreshScreen();
 				}
