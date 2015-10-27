@@ -3,19 +3,90 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGame", "MyGame.csproj", "{871B5A90-103A-46A5-BBB9-07C02B9851D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CAFE6E2-B87F-4993-B392-6D1B9CA3788F}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MyGame.vsmdi = MyGame.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MyGame.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Debug-Mac|Any CPU = Debug-Mac|Any CPU
+		Debug-Mac|Mixed Platforms = Debug-Mac|Mixed Platforms
 		Debug-Mac|x86 = Debug-Mac|x86
-		Debug-Windows|x86 = Debug-Windows|x86
+		Debug-Unix|Any CPU = Debug-Unix|Any CPU
+		Debug-Unix|Mixed Platforms = Debug-Unix|Mixed Platforms
 		Debug-Unix|x86 = Debug-Unix|x86
+		Debug-Windows|Any CPU = Debug-Windows|Any CPU
+		Debug-Windows|Mixed Platforms = Debug-Windows|Mixed Platforms
+		Debug-Windows|x86 = Debug-Windows|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug|Any CPU.ActiveCfg = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug|Mixed Platforms.ActiveCfg = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug|Mixed Platforms.Build.0 = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug|x86.ActiveCfg = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug|x86.Build.0 = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Mac|Any CPU.ActiveCfg = Debug-Mac|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Mac|Mixed Platforms.ActiveCfg = Debug-Mac|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Mac|Mixed Platforms.Build.0 = Debug-Mac|x86
 		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Mac|x86.ActiveCfg = Debug-Mac|x86
 		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Mac|x86.Build.0 = Debug-Mac|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Unix|Any CPU.ActiveCfg = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Unix|Mixed Platforms.ActiveCfg = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Unix|Mixed Platforms.Build.0 = Debug-Unix|x86
 		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Unix|x86.ActiveCfg = Debug-Unix|x86
 		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Unix|x86.Build.0 = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Windows|Any CPU.ActiveCfg = Debug-Windows|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Windows|Mixed Platforms.ActiveCfg = Debug-Windows|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Windows|Mixed Platforms.Build.0 = Debug-Windows|x86
 		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Windows|x86.ActiveCfg = Debug-Windows|x86
 		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Debug-Windows|x86.Build.0 = Debug-Windows|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Release|Any CPU.ActiveCfg = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Release|Mixed Platforms.ActiveCfg = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Release|Mixed Platforms.Build.0 = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Release|x86.ActiveCfg = Debug-Unix|x86
+		{871B5A90-103A-46A5-BBB9-07C02B9851D1}.Release|x86.Build.0 = Debug-Unix|x86
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Mac|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Mac|Any CPU.Build.0 = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Mac|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Mac|Mixed Platforms.Build.0 = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Mac|x86.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Unix|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Unix|Any CPU.Build.0 = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Unix|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Unix|Mixed Platforms.Build.0 = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Unix|x86.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Windows|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Windows|Any CPU.Build.0 = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Windows|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Windows|Mixed Platforms.Build.0 = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Debug-Windows|x86.ActiveCfg = Debug|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{66A3AC03-8883-4A43-BBFF-18E0A002FB6C}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = MyGame.csproj
