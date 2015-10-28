@@ -11,7 +11,7 @@ using SwinGameSDK;
 /// menu and the settings m,enu.
 /// </summary>
 
-static class MenuController
+public class MenuController
 {
 
 	/// <summary>
@@ -245,7 +245,7 @@ static class MenuController
 				PerformMainMenuAction(button);
 				break;
 			case SETUP_MENU:
-				PerformSetupMenuAction(button);
+				//PerformSetupMenuAction(button);
 				break;
 			case GAME_MENU:
 				PerformGameMenuAction(button);
@@ -279,7 +279,7 @@ static class MenuController
 	/// The setup menu was clicked, perform the button's action.
 	/// </summary>
 	/// <param name="button">the button pressed</param>
-	private static void PerformSetupMenuAction(int button)
+	public void PerformSetupMenuAction(int button)
 	{
 		switch (button) {
 			case SETUP_MENU_EASY_BUTTON:
